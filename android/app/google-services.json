@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1033022311727",
+    "project_id": "airplane-db",
+    "storage_bucket": "airplane-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033022311727:android:0e30f1690674a7e12ee5da",
+        "android_client_info": {
+          "package_name": "com.example.flutterapp_airplane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033022311727-mhva3vqgm4qh0mieeogtt263h79ln9df.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxO6D1qcmmmvN62e8y0WOqI-T9xovg1pQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033022311727-mhva3vqgm4qh0mieeogtt263h79ln9df.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1033022311727-3vb92b4affe9s93sbm7ebsa2ojdf735k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterappAirplane"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
