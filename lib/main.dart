@@ -5,12 +5,14 @@ import 'package:flutterapp_airplane/cubit/auth_cubit.dart';
 import 'package:flutterapp_airplane/cubit/destination_cubit.dart';
 import 'package:flutterapp_airplane/cubit/page_cubit.dart';
 import 'package:flutterapp_airplane/cubit/seat_cubit.dart';
+import 'package:flutterapp_airplane/cubit/transaction_cubit.dart';
 import 'package:flutterapp_airplane/ui/pages/bonus_page.dart';
 import 'package:flutterapp_airplane/ui/pages/get_started_page.dart';
 import 'package:flutterapp_airplane/ui/pages/main_page.dart';
 import 'package:flutterapp_airplane/ui/pages/sign_in_page.dart';
 import 'package:flutterapp_airplane/ui/pages/sign_up_page.dart';
 import 'package:flutterapp_airplane/ui/pages/splash_page.dart';
+import 'package:flutterapp_airplane/ui/pages/success_checkout_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -38,6 +40,9 @@ class MyApp extends StatelessWidget {
         BlocProvider(
           create: (context) => SeatCubitCubit(),
         ),
+        BlocProvider(
+          create: (context) => TransactionCubit(),
+        ),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
@@ -48,6 +53,7 @@ class MyApp extends StatelessWidget {
           '/sign-in': (context) => SignInPage(),
           '/bonus': (context) => BonusPage(),
           '/main': (context) => MainPage(),
+          '/success': (context) => SuccessCheckoutPage(),
         },
       ),
     );

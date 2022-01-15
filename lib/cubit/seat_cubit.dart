@@ -10,7 +10,7 @@ class SeatCubitCubit extends Cubit<List<String>> {
     } else {
       state.remove(id);
     }
-    emit(state);
+    emit(List.from(state));
   }
 
   bool isSelected(String id) {
