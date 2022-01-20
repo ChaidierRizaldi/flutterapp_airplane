@@ -1,6 +1,6 @@
 # flutterapp_airplane
 
-A new Flutter project.
+Membangun aplikasi travel dan pesawat menggunakan framework Flutter dan bahasa pemrograman Dart. Proses pembelajaran proyek yaitu dari tahapan Slicing desain, penerapan arsitektur BLoC hingga pengaktifan Null Safety pada Flutter.
 
 ## Getting Started
 
