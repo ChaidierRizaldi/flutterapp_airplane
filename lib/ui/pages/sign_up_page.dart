@@ -105,7 +105,7 @@ class SignUpPage extends StatelessWidget {
           vertical: 30,
         ),
         decoration: BoxDecoration(
-          color: kWhiteColor,
+          color: kCreamColor,
           borderRadius: BorderRadius.circular(
             defaultRadius,
           ),
