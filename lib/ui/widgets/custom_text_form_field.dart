@@ -35,6 +35,7 @@ class CustomTextFormField extends StatelessWidget {
             decoration: InputDecoration(
                 hintText: hintText,
                 border: OutlineInputBorder(
+                  borderSide: BorderSide(color: kGreyColor),
                   borderRadius: BorderRadius.circular(
                     defaultRadius,
                   ),
